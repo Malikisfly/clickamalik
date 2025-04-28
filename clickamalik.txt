@@ -41,7 +41,7 @@ Buildings
 Upgrades
 *tungTungTungSahar
   name: tung tung tung sahar
-  desc: get munyun
+  desc:munyun
   passive: multiply yield of Malik by 2
   cost: 300 munyun
 
