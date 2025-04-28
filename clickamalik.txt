@@ -38,14 +38,14 @@ Buildings
 	*monkeyZoo|zoo
 		name:Monkey Zoo
 		Desc: A zoo
-Produces 1 munyun every second.
+
 		icon:file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(2).png		
 cost:25 munyun
 		on tick:yield 1 munyun		cost increase:115%
 	*lionZoo|LionZoos
 		Name:lion zoo
 		Desc:a zoo of lions
-Produces 5 munyun every second.
+
 		Icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(3).png		cost:150 munyun
 		on tick:yield 2.5 munyun
 		req:(monkeyZoo>=5)
