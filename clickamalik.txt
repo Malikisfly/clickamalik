@@ -35,8 +35,6 @@ Buildings
   cost: 20 munyun
   req: 20 munyun
   on tick: yield 3 munyun
-  building cost increase:115
-  building cost refund:50
 
 Upgrades
 *tungTungTungSahar
