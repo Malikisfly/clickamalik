@@ -48,33 +48,3 @@ Achievements
   name: You almost win my friend
   desc: Win almost
   req: 10 Malik clicks
-
-Style
-#game
-  background: darkblue
-  font-family: "Times New Roman", Times, serif
-  color: black
-
-.thing
-  border-radius: 8px
-  background: rgba(255, 255, 255, 0.5)
-
-.thing-icon, .particle
-  width: 64px
-  height: 64px
-
-#game.filtersOn .thing.cantAfford.notOwned
-  filter: blur(3px)
-
-Layout
-*resources
-  contains: munyun
-  header: These are your resources.
-
-*buildings
-  contains: Cardboardbox
-  header: These are things you can build.
-
-*buttons
-  contains: Malik
-  header: Click to earn munyun.
