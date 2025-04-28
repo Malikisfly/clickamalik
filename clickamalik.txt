@@ -1,0 +1,67 @@
+Let's make a game!
+
+name: Click a Malik
+
+author: ArJay Malik
+by: ArJay Malik
+desc: Click a handsome young man to become successful!
+
+created: 27/4/2025
+version: alpha
+
+Settings
+
+building cost increase: 120%
+
+building cost refund: 50%
+
+stylesheet:stuff/bigBlue.css
+
+CSS
+  #game
+  {
+    background:darkblue;
+    font-family:"Times New Roman",Times,serif;
+    color:black;
+  }
+
+CSS
+  .thing
+  {
+    border-radius:8px;
+    background:rgba(255,255,255,0.5);
+  }
+CSS
+  .thing-icon,.particle
+  {
+    width:64px;
+    height:64px;
+  }CSS
+  #game.filtersOn .thing.cantAfford.notOwned
+  {
+    filter:blur(3px);
+  }Layout
+  *resources
+    contains:Resources
+    header:These are your resources.
+  *buildings
+    contains:Buildings
+    header:These are things you can build.
+    tooltip origin:left
+  *unlockables
+    contains:Upgrades, Achievements
+    names:hide
+*Box
+name:Box |Boxes
+desc: you live in a box?!?!
+icon:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
+tag:houses
+costs: 30 dolla
+req: 30 dolla
+dim
+
+*Malik
+  name:Malik
+  desc:Click Malik. Grants 1 dolla per click.
+  on click:yield 1 dolla
+show clicks
