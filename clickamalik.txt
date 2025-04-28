@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.5.0
+version: alpha.v.6.0
 
 Settings
 stylesheet: stuff/bigBlue.css
@@ -49,7 +49,7 @@ Achievements
   desc: Win almost
   req: 10 Malik clicks
 
-Styles
+Style
 #game
   background: darkblue
   font-family: "Times New Roman", Times, serif
