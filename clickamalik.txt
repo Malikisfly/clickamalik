@@ -6,11 +6,11 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.4
+version: alpha.v.4.1
 
 Settings
-building cost increase:115%
-building cost refund:50%
+building cost increase:115
+building cost refund:50
 stylesheet: stuff/bigBlue.css
 
 Resources
@@ -37,8 +37,8 @@ Buildings
   cost: 20 munyun
   req: 20 munyun
   on tick: yield 3 munyun
-  building cost increase:115%
-  building cost refund:50%
+  building cost increase:115
+  building cost refund:50
 
 Upgrades
 *tungTungTungSahar
