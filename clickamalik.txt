@@ -1,3 +1,5 @@
+Let's make a game!
+
 name: Click a Malik
 
 author: ArJay Malik
