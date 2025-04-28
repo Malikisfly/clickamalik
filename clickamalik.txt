@@ -25,7 +25,8 @@ Buttons
 		tooltip class:red
 		show clicks
 Resources
-	*munyun|munyuns		name:munyun|munyuns		
+	*munyun|munyuns		
+name:munyun|munyuns		
 		desc:Use munyun to bribe malik !
 		icon:file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(2).png
 		class:noBackground
