@@ -9,8 +9,6 @@ created: 27/4/2025
 version: alpha
 
 Settings
-building cost increase: 120%
-building cost refund: 50%
 stylesheet: stuff/bigBlue.css
 
 Resources
