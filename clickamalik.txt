@@ -53,7 +53,7 @@ CSS
     names:hide
 
 Resources
-*Munyun
+*munyun
   name:munyun
   desc: this is your money
 show earned
