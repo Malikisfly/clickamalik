@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.6.0
+version: alpha.v.6.1
 
 Settings
 stylesheet: stuff/bigBlue.css
