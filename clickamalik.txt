@@ -51,17 +51,42 @@ CSS
   *unlockables
     contains:Upgrades, Achievements
     names:hide
+Buildings
 *Box
 name:Box |Boxes
 desc: you live in a box?!?!
 icon:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
 tag:houses
-costs: 30 dolla
-req: 30 dolla
+costs: 20 munyun
+req: 20 munyun
 dim
+on tick: yield 3 munyun
+building cost increase: 120%
 
+building cost refund: 50%
+
+Buttons
 *Malik
   name:Malik
-  desc:Click Malik. Grants 1 dolla per click.
-  on click:yield 1 dolla
+  desc:Click Malik. Grants 1 munyun per click.
+  on click:yield 1 munyun
 show clicks
+
+Resources
+*Munyun
+  name:munyun
+  desc: this is your money
+show earned
+
+Upgrades
+*tungTungTungSahar
+  name:tung tung tung sahar
+  desc: get munyun
+  passive:multiply yield of MalikButton by 2
+  cost:300 munyun
+
+Achievements
+*crocodillo
+  name:you almost win my friend
+  desc:win almost
+  req:10 MalikButton:clicks
