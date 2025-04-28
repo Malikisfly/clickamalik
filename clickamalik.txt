@@ -1,5 +1,4 @@
 Let's make a game!
-
 name: Click a Malik
 
 author: ArJay Malik
@@ -10,7 +9,6 @@ created: 27/4/2025
 version: alpha
 
 Settings
-
 building cost increase: 120%
 building cost refund: 50%
 stylesheet: stuff/bigBlue.css
@@ -18,7 +16,7 @@ stylesheet: stuff/bigBlue.css
 Resources
 *munyun
   name: munyun
-  desc: this is your money
+  desc: this is your money.
   show earned: true
   icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(1).png
 
@@ -53,7 +51,7 @@ Achievements
 *crocodillo
   name: You almost win my friend
   desc: Win almost
-  req: 10 Malik: clicks
+  req: 10 Malik clicks
 
 Styles
 #game
@@ -71,3 +69,16 @@ Styles
 
 #game.filtersOn .thing.cantAfford.notOwned
   filter: blur(3px)
+
+Layout
+*resources
+  contains: munyun
+  header: These are your resources.
+
+*buildings
+  contains: Cardboardbox
+  header: These are things you can build.
+
+*buttons
+  contains: Malik
+  header: Click to earn munyun.
