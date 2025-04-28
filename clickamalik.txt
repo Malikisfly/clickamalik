@@ -34,7 +34,7 @@ Buildings
   desc: You live in a box?!?!
   icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
   tag: houses
-  costs: 20 munyun
+  cost: 20 munyun
   req: 20 munyun
   on tick: yield 3 munyun
   building cost increase: 120%
