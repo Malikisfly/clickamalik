@@ -3,7 +3,7 @@ Let's make a game!
 	by:ArJay Malik Wade
 	desc:Testing
 	created:4/28/25
-	version:2
+	version:3
 
 Settings
 	background:https://i.imgur.com/ko1yDMX.jpg
