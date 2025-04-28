@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha
+version: alpha.v.3
 
 Settings
 building cost increase: 120%
@@ -14,12 +14,12 @@ building cost refund: 50%
 stylesheet: stuff/bigBlue.css
 
 Resources
-*munyun
-  name: munyun
-  desc: this is your money.
-  show earned   
-  icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(1).png
-
+*munyun|munyuns
+		name:munyun|munyuns
+		desc:Use munyun to upgrade your malik!
+icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(1).png
+	 class:noBackground
+		show earned
 Buttons
 *Malik
   name: Malik
@@ -43,7 +43,7 @@ Buildings
 Upgrades
 *tungTungTungSahar
   name: tung tung tung sahar
-  desc: Get munyun
+  desc: get munyun
   passive: multiply yield of Malik by 2
   cost: 300 munyun
 
