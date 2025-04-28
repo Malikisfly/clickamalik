@@ -53,7 +53,6 @@ cost:25 munyun
 	*item|items
 		Name: Poopskin
 		Desc:poopsy daisy
-Produces 1 munyun every second.
 		Icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(4).png		cost:50 munyun
 		on tick:yield 1 munyun		cost increase:115%
 			
