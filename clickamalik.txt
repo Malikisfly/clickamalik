@@ -1,4 +1,4 @@
-Let's make a game!
+Let's make a game
 
 name: Click a Malik
 
@@ -13,75 +13,61 @@ Settings
 
 building cost increase: 120%
 building cost refund: 50%
-stylesheet:stuff/bigBlue.css
-
-CSS
-  #game {
-    background:darkblue;
-    font-family:"Times New Roman",Times,serif;
-    color:black;
-  }
-  .thing {
-    border-radius:8px;
-    background:rgba(255,255,255,0.5);
-  }
-  .thing-icon,.particle {
-    width:64px;
-    height:64px;
-  }
-  #game.filtersOn .thing.cantAfford.notOwned {
-    filter:blur(3px);
-  }
-
-Layout
-  *resources
-    contains:Resources
-    header:These are your resources.
-  *buildings
-    contains:Buildings
-    header:These are things you can build.
-    tooltip origin:left
-  *unlockables
-    contains:Upgrades, Achievements
-    names:hide
+stylesheet: stuff/bigBlue.css
 
 Resources
 *munyun
-  name:munyun
+  name: munyun
   desc: this is your money
-show earned
-icon:file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(1).png
+  show earned: true
+  icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(1).png
 
 Buttons
 *Malik
-  name:Malik
-  desc:Click Malik. Grants 1 munyun per click.
+  name: Malik
+  desc: Click Malik. Grants 1 munyun per click.
   on click: yield 1 munyun
-show clicks
-icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
+  show clicks: true
+  icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
 
 Buildings
 *Cardboardbox
-  name:box |Boxes
-  desc: you live in a box?!?!
+  name: Cardboard Box
+  desc: You live in a box?!?!
   icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
   tag: houses
-  cost: 20 munyun  # Corrected syntax here.
+  costs: 20 munyun
   req: 20 munyun
-  dim
   on tick: yield 3 munyun
   building cost increase: 120%
   building cost refund: 50%
 
 Upgrades
 *tungTungTungSahar
-  name:tung tung tung sahar
-  desc: get munyun
-  passive: multiply yield of MalikButton by 2
+  name: tung tung tung sahar
+  desc: Get munyun
+  passive: multiply yield of Malik by 2
   cost: 300 munyun
 
 Achievements
 *crocodillo
-  name:you almost win my friend
-  desc:win almost
-  req: 10 MalikButton:clicks
+  name: You almost win my friend
+  desc: Win almost
+  req: 10 Malik: clicks
+
+Styles
+#game
+  background: darkblue
+  font-family: "Times New Roman", Times, serif
+  color: black
+
+.thing
+  border-radius: 8px
+  background: rgba(255, 255, 255, 0.5)
+
+.thing-icon, .particle
+  width: 64px
+  height: 64px
+
+#game.filtersOn .thing.cantAfford.notOwned
+  filter: blur(3px)
