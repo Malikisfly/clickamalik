@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.6.1
+version: alpha.v.7.0
 
 Settings
 stylesheet: stuff/bigBlue.css
@@ -22,7 +22,7 @@ Buttons
 *Malik
   name: Malik
   desc: Click Malik. Grants 1 munyun per click.
-  on click: yield 1 munyun
+  on click:yield 1 munyun
   show clicks   
   icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
 
@@ -34,13 +34,13 @@ Buildings
   tag: houses
   cost: 20 munyun
   req: 20 munyun
-  on tick: yield 3 munyun
+  on tick:yield 3 munyun
 
 Upgrades
 *tungTungTungSahar
   name: tung tung tung sahar
   desc:munyun
-  passive: multiply yield of Malik by 2
+  passive:multiply yield of munyun by 2
   cost: 300 munyun
 
 Achievements
@@ -48,3 +48,15 @@ Achievements
   name: You almost win my friend
   desc: Win almost
   req: 10 Malik clicks
+
+Layout
+  *resources
+    contains:Resources
+    header:These are your resources.
+  *buildings
+    contains:Buildings
+    header:These are things you can build.
+    tooltip origin:left
+  *unlockables
+    contains:Achievements
+    names:hide
