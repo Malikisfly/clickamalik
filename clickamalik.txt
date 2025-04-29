@@ -213,6 +213,11 @@ Buttons
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
   show clicks   
+top:0px;
+	right:0px;
+	bottom:5000px;
+	left:0px;
+	position:absolute;
   
 Buildings
 *Cardboardbox
