@@ -6,10 +6,9 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 8
+version: 9
 Settings
-background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcartoon-grass-background&psig=AOvVaw1nK17CkWPqDS2omzzQIrN5&ust=1745973664079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiP-PGA_IwDFQAAAAAdAAAAABAK.jpg
-
+background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 #game
 {
 	
@@ -213,16 +212,89 @@ Buttons
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
   show clicks   
+icon: https://file.garden/aBE4-PXQ8xy11qyy/7630510.png
   
 Buildings
 *Cardboardbox
   name: Cardboard Box
   desc: You live in a box?!?!
-  icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
   tag: houses
   cost:20 munyun
   req:20 munyun
+  on tick:yield 1 munyun
+*Eric
+  name: Lion Zoo
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
   on tick:yield 3 munyun
+
+*Monkey
+  name: Monkey Zoo 
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
+  on tick:yield 10 munyun
+
+*Hippo
+  name: Hippo Zoo 
+  desc: honk
+  tag: houses
+  cost:1000 munyun
+  req:1000 munyun
+  on tick:yield 13 munyun
+
+*Bird
+  name: Bird Zoo 
+  desc: beep
+  tag: houses
+  cost:2000 munyun
+  req:2000 munyun
+  on tick:yield 15 munyun
+
+*Rawr
+  name: Dino Zoo 
+  desc: rawr
+  tag: houses
+  cost:4000 munyun
+  req:4000 munyun
+  on tick:yield 17 munyun
+
+*Mutant
+  name: Mutant Zoo 
+  desc: ewwww
+  tag: houses
+  cost:6000 munyun
+  req:6000 munyun
+  on tick:yield 20 munyun
+
+
+*Ailen
+  name: Alien Zoo 
+  desc: eeeeeee
+  tag: houses
+  cost:9000 munyun
+  req:9000 munyun
+  on tick:yield 24 munyun
+
+*Space
+  name: Space Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:13000 munyun
+  req:13000 munyun
+  on tick:yield 27 munyun
+
+
+*Deity
+  name: Deity Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:17000 munyun
+  req:17000 munyun
+  on tick:yield 29 munyun
 
 Upgrades
 *tungTungTungSahar
