@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.7.5
+version: alpha.v.8.0
 
 Settings
 stylesheet: stuff/bigBlue.css
@@ -59,11 +59,11 @@ Achievements
   name:You almost win my friend
   desc:Win almost
   req:10 Malik clicks
-*monkey boy
+*monkeyBoy
 name: 100 clicks
   desc:WOW
   req:100 Malik clicks
-*arjay master
+*arjayMaster
 name: 1k clicks
   desc:thousnad clicks
   req:1k Malik clicks
