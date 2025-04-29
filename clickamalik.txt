@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 4
+version: 1
 Settings
 background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 Resources
@@ -33,6 +33,7 @@ Buildings
   cost:20 munyun
   req:20 munyun
   on tick:yield 1 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(5).png
 *Eric
   name: Lion Zoo
   desc: Ruff RUff
@@ -40,6 +41,7 @@ Buildings
   cost:200 munyun
   req:200 munyun
   on tick:yield 3 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(6).png
 
 *Monkey
   name: Monkey Zoo 
@@ -48,6 +50,8 @@ Buildings
   cost:200 munyun
   req:200 munyun
   on tick:yield 10 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(7).png
+
 
 *Hippo
   name: Hippo Zoo 
@@ -56,6 +60,7 @@ Buildings
   cost:1000 munyun
   req:1000 munyun
   on tick:yield 13 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design.jpg
 
 *Bird
   name: Bird Zoo 
@@ -64,6 +69,7 @@ Buildings
   cost:2000 munyun
   req:2000 munyun
   on tick:yield 15 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(9).png
 
 *Rawr
   name: Dino Zoo 
@@ -72,6 +78,7 @@ Buildings
   cost:4000 munyun
   req:4000 munyun
   on tick:yield 17 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(9).png
 
 *Mutant
   name: Mutant Zoo 
@@ -81,7 +88,7 @@ Buildings
   req:6000 munyun
   on tick:yield 20 munyun
 
-
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(10).png
 *Ailen
   name: Alien Zoo 
   desc: eeeeeee
@@ -89,7 +96,7 @@ Buildings
   cost:9000 munyun
   req:9000 munyun
   on tick:yield 24 munyun
-
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(11).png
 *Space
   name: Space Zoo 
   desc: ooooooo
@@ -97,6 +104,7 @@ Buildings
   cost:13000 munyun
   req:13000 munyun
   on tick:yield 27 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(12).png
 
 
 *Deity
@@ -106,6 +114,7 @@ Buildings
   cost:17000 munyun
   req:17000 munyun
   on tick:yield 29 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(13).png
 
 Upgrades
 *tungTungTungSahar
