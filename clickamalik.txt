@@ -213,6 +213,8 @@ Buttons
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
   show clicks   
+position:absolute
+
 
 *Wade
   name: Wade
@@ -227,14 +229,14 @@ Buildings
   tag: houses
   cost:20 munyun
   req:20 munyun
-  on tick:yield 3 munyun
+  on tick:yield 1 munyun
 *Eric
   name: Lion Zoo
   desc: Ruff RUff
   tag: houses
   cost:200 munyun
   req:200 munyun
-  on tick:yield 300 munyun
+  on tick:yield 3 munyun
 
 *Monkey
   name: Monkey Zoo 
@@ -242,56 +244,134 @@ Buildings
   tag: houses
   cost:200 munyun
   req:200 munyun
-  on tick:yield 600 munyun
+  on tick:yield 10 munyun
 
 *Hippo
   name: Hippo Zoo 
   desc: honk
   tag: houses
-  cost:600 munyun
-  req:600 munyun
-  on tick:yield 800 munyun
+  cost:1000 munyun
+  req:1000 munyun
+  on tick:yield 13 munyun
+
+*Bird
+  name: Bird Zoo 
+  desc: beep
+  tag: houses
+  cost:2000 munyun
+  req:2000 munyun
+  on tick:yield 15 munyun
+
+*Rawr
+  name: Dino Zoo 
+  desc: rawr
+  tag: houses
+  cost:4000 munyun
+  req:4000 munyun
+  on tick:yield 17 munyun
+
+*Mutant
+  name: Mutant Zoo 
+  desc: ewwww
+  tag: houses
+  cost:6000 munyun
+  req:6000 munyun
+  on tick:yield 20 munyun
+
+
+*Ailen
+  name: Alien Zoo 
+  desc: eeeeeee
+  tag: houses
+  cost:9000 munyun
+  req:9000 munyun
+  on tick:yield 24 munyun
+
+*Space
+  name: Space Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:13000 munyun
+  req:13000 munyun
+  on tick:yield 27 munyun
+
+
+*Deity
+  name: Deity Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:17000 munyun
+  req:17000 munyun
+  on tick:yield 29 munyun
+
+
+
+
 
 
 Upgrades
 *tungTungTungSahar
   name:tung tung tung sahar
   desc:munyun
-  passive:multiply yield of munyun by 2
+  passive:multiply yield of munyun by 1.4
   cost:300 munyun
 *spider
   name:master splinter
   desc:get munyun
-  passive:multiply yield of munyun by 5
+  passive:multiply yield of munyun by 1.6
   cost:500 munyun
 *monkey
   name:master caseoh
   desc:get munyun
-  passive:multiply yield of munyun by 7
+  passive:multiply yield of munyun by 1.8
   cost:4000 munyun
 
 *buddy1
   name:bud
   desc:munyun
-  passive:multiply yield of munyun by 3
+  passive:multiply yield of munyun by 2
   cost:800 munyun
 *buddy2
   name:buddy
   desc:get munyun
-  passive:multiply yield of munyun by 5
+  passive:multiply yield of munyun by 2.3
   cost:3000 munyun
 
 *buddy3
   name:bud2
   desc:munyun
-  passive:multiply yield of munyun by 6
+  passive:multiply yield of munyun by 2.6
   cost:8000 munyun
 
 *buddy4
   name:bud3
   desc:get munyun
-  passive:multiply yield of munyun by 7
+  passive:multiply yield of munyun by 2.7
   cost:30000 munyun
+
+*buddy5
+  name:bud4
+  desc:get munyun
+  passive:multiply yield of munyun by 2.8
+  cost:50000 munyun
+
+*buddy6
+  name:bud5
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:70000 munyun
+
+*buddy7
+  name:bud6
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:90000 munyun
+*buddy8
+  name:bud7
+  desc:get munyun
+  passive:multiply yield of munyun by 3
+  cost:90000 munyun
+
 
 
 
