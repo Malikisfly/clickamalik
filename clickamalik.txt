@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.7.2
+version: alpha.v.7.5
 
 Settings
 stylesheet: stuff/bigBlue.css
@@ -49,14 +49,3 @@ Achievements
   desc:Win almost
   req:10 Malik clicks
 
-Layout
-  *resources
-    contains:Resources
-    header:These are your resources.
-  *buildings
-    contains:Buildings
-    header:These are things you can build.
-    tooltip origin:left
-  *unlockables
-    contains:Achievements
-    names:hide
