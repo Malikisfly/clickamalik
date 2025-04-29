@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 10
+version: 12
 Settings
 background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcartoon-grass-background&psig=AOvVaw1nK17CkWPqDS2omzzQIrN5&ust=1745973664079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiP-PGA_IwDFQAAAAAdAAAAABAK.jpg
 
@@ -71,8 +71,8 @@ background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2
 #box-buttons
 {
 	top:0px;
-	right:0px;
-	bottom:5000px;
+	right:50px;
+	bottom:50px;
 	left:0px;
 	position:absolute;
 }
@@ -212,6 +212,9 @@ Buttons
   name: Malik
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
+icon: https://ibb.co/Q3js4Nb1
+spritesheet:icons, 48 by 48,https://ibb.co/Q3js4Nb1
+icon:icons[3,1]
   show clicks   
 
 
@@ -390,12 +393,14 @@ name: 100 clicks
   req:1000 Malik clicks
 Layout
 *main
-  contains:res, buttons
+  contains:res
   *res
     contains:Resources
     class:fullWidth
   *buttons
     contains:Buttons
+class:bigButton
+
 *store
   contains:buildings, upgrades
   *buildings
