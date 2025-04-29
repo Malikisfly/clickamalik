@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 9
+version: 1.9
 Settings
 background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 #game
@@ -55,8 +55,9 @@ background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 	top:0px;
 	bottom:0px;
 	overflow:hidden;
-	width:60%;
+	width:40%;
 	position:absolute;
+	left:30%;
 }
 #box-res.fullWidth
 {
