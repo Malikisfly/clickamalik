@@ -1,211 +1,217 @@
 Let's make a game!
-	name:Malik Clicker
-	by:ArJay Malik Wade
-	desc:Testing
-	created:4/28/25
-	version:3
+name: Click a Malik
 
+author: ArJay Malik
+by: ArJay Malik
+desc: Click a handsome young man to become successful!
+
+created: 27/4/2025
+version: 4.15
 Settings
-	background:https://i.imgur.com/ko1yDMX.jpg
-	building cost increase:115%
-	building cost refund:50%
-	stylesheet:stuff/bigBlue.css
-
-Layout
-	use default
-		
-Buttons
-	*malikButton
-		Name:get munyun
-		desc:Click this to get munyun		on click:anim icon wobble
-		on click:yield 1 munyun text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:red
-		show clicks
+background: 
 Resources
-	*munyun|munyuns		
-name:munyun|munyuns		
-		desc:Use munyun to bribe malik !
-		icon:file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(2).png
-		class:noBackground
+*munyun|munyuns
+		name:munyun|munyuns
+		desc:Use munyun to upgrade your malik!
+	 class:noBackground
 		show earned
+Buttons
+*Malik
+  name: Malik
+  desc: Click Malik. Grants 1 munyun per click.
+  on click:yield 1 munyun
+icon:icons[3,1]
+  show clicks   
+class:bigButton
+
 Buildings
-	*TEMPLATE
-		on click:anim glow
-		
-	*monkeyZoo|zoo
-		name:Monkey Zoo
-		Desc: A zoo
+*Cardboardbox
+  name: Cardboard Box
+  desc: You live in a box?!?!
+  tag: houses
+  cost:20 munyun
+  req:20 munyun
+  on tick:yield 1 munyun
+*Eric
+  name: Lion Zoo
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
+  on tick:yield 3 munyun
 
-		icon:file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(2).png		
-cost:25 munyun
-		on tick:yield 1 munyun		cost increase:115%
-	*lionZoo|LionZoos
-		Name:lion zoo
-		Desc:a zoo of lions
+*Monkey
+  name: Monkey Zoo 
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
+  on tick:yield 10 munyun
 
-		Icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(3).png		cost:150 munyun
-		on tick:yield 2.5 munyun
-		req:(monkeyZoo>=5)
-		cost increase:115%
-	*item|items
-		Name: Poopskin
-		Desc:poopsy daisy
-		Icon: file:///media/fuse/drivefs-129a89ed5c1dfb1ed246b71b07bf5cac/root/Untitled%20design%20(4).png		cost:50 munyun
-		on tick:yield 1 munyun		cost increase:115%
-			
+*Hippo
+  name: Hippo Zoo 
+  desc: honk
+  tag: houses
+  cost:1000 munyun
+  req:1000 munyun
+  on tick:yield 13 munyun
+
+*Bird
+  name: Bird Zoo 
+  desc: beep
+  tag: houses
+  cost:2000 munyun
+  req:2000 munyun
+  on tick:yield 15 munyun
+
+*Rawr
+  name: Dino Zoo 
+  desc: rawr
+  tag: houses
+  cost:4000 munyun
+  req:4000 munyun
+  on tick:yield 17 munyun
+
+*Mutant
+  name: Mutant Zoo 
+  desc: ewwww
+  tag: houses
+  cost:6000 munyun
+  req:6000 munyun
+  on tick:yield 20 munyun
+
+
+*Ailen
+  name: Alien Zoo 
+  desc: eeeeeee
+  tag: houses
+  cost:9000 munyun
+  req:9000 munyun
+  on tick:yield 24 munyun
+
+*Space
+  name: Space Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:13000 munyun
+  req:13000 munyun
+  on tick:yield 27 munyun
+
+
+*Deity
+  name: Deity Zoo 
+  desc: ooooooo
+  tag: houses
+  cost:17000 munyun
+  req:17000 munyun
+  on tick:yield 29 munyun
+
+
+
+
+
+
 Upgrades
-	*TEMPLATE
-		on click:anim glow
-	
-	
-	*catsack
-		name:Catsacks
-		desc:Catsacks are condo items that give a random item when opened. <//><b>Effect:</b><.>X2 condo units, 2X plaza units and x1.5 game world units per click.
-		icon:https://i.imgur.com/O1iv7se.png?1
-		cost:1000 condounits
-		passive:multiply condounit yield of unitButton by 2
-		passive:multiply gameunit yield of unitButton by 1.5
-		passive:multiply plazaunit yield of unitButton by 2
-		req:750 condounits:earned
-		req:(item>=15)
-	*silvercatsack
-		name:Silver Catsacks
-		desc:Silver Catsacks are upgraded catsacks that give a random item when opened. <//><b>Effect:</b><.>Golden Catsacks, Cosmic Catsacks, Snails and Potatoes will start appearing occasionally.
-		icon:https://i.imgur.com/O1iv7se.png?1
-		cost:10000 condounits
-		passive:multiply yield of item by 3
-		req:100000 condounits:earned
-		req:(item>=30)
-		req:(catsack>=1)
-		
-	*robs
-		name:Rob's Imports
-		desc:A thrift store in the plaza.<//><b>Effect:</b><.>X2 Store production.
-		icon:https://i.imgur.com/4BsJ7Mf.png?1
-		cost:100 plazaunits
-		passive:multiply yield of shops by 2
-		req:(shop>=10)
-	*planetmap1
-		name:Hillside
-		desc:A brand new map for Planet Panic.<//><b>Effect:</b><.>X1.5 Planet Panic production.
-		icon:https://i.imgur.com/39f2Mzn.png?1
-		cost:1000 gameunits
-		passive:multiply yield of planet by 1.5
-		req:(planet>=1)
-	*ballmap1
-		name:Nimbus
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Ball Race production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:1500 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=1)
-	*ballmap2
-		name:GLXY
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:4000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=5)
-	*ballmap3
-		name:Paradise
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:8000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=10)
-	*ballmap4
-		name:Memories
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:15000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=20)
-	*ballmap5
-		name:Summit
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:25000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=40)
-	*ballmap6
-		name:Khromidro
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:50000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=60)
-	*ballmap7
-		name:Midori
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:750000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=80)
-	*ballmap8
-		name:Prism
-		desc:A brand new map for Ball Race.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/as59OSc.png?1
-		cost:150000 gameunits
-		passive:multiply yield of ballrace by 1.5
-		req:(ballrace>=100)
-	*golfmap1
-		name:Garden
-		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/1kkFPvT.png
-		cost:2000 gameunits
-		passive:multiply yield of golf by 1.5
-		req:(golf>=1)
-	*golfmap2
-		name:Waterhole
-		desc:A brand new map for Minigolf.<//><b>Effect:</b><.>X1.5 Minigolf production.
-		icon:https://i.imgur.com/1kkFPvT.png
-		cost:8000 gameunits
-		passive:multiply yield of golf by 1.5
-		req:(golf>=5)
+*tungTungTungSahar
+  name:tung tung tung sahar
+  desc:munyun
+  passive:multiply yield of munyun by 1.4
+  cost:300 munyun
+*spider
+  name:master splinter
+  desc:get munyun
+  passive:multiply yield of munyun by 1.6
+  cost:500 munyun
+*monkey
+  name:master caseoh
+  desc:get munyun
+  passive:multiply yield of munyun by 1.8
+  cost:4000 munyun
+
+*buddy1
+  name:bud
+  desc:munyun
+  passive:multiply yield of munyun by 2
+  cost:800 munyun
+*buddy2
+  name:buddy
+  desc:get munyun
+  passive:multiply yield of munyun by 2.3
+  cost:3000 munyun
+
+*buddy3
+  name:bud2
+  desc:munyun
+  passive:multiply yield of munyun by 2.6
+  cost:8000 munyun
+
+*buddy4
+  name:bud3
+  desc:get munyun
+  passive:multiply yield of munyun by 2.7
+  cost:30000 munyun
+
+*buddy5
+  name:bud4
+  desc:get munyun
+  passive:multiply yield of munyun by 2.8
+  cost:50000 munyun
+
+*buddy6
+  name:bud5
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:70000 munyun
+
+*buddy7
+  name:bud6
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:90000 munyun
+*buddy8
+  name:bud7
+  desc:get munyun
+  passive:multiply yield of munyun by 3
+  cost:90000 munyun
 
 
-Shinies
-       *goldCat
-               name:Golden Catsack
-               on click:yield (random(10,100)) condounits
-	       on click:toast The Catsack opened and it contained <//><b>[$amount] condo units</b>!
-	       req:silvercatsack
-               movement:anywhere shrink spinCW
-               frequency:300
-	       frequency variation:10
-	       duration:10
-	       icon:https://i.imgur.com/qCUNSCi.png
-       *snail
-               name:Snail
-               on click:multiply yield of item by 1.5
-	       on click:toast The snail improves your items' production 1.5x!
-	       req:silvercatsack
-               movement:anywhere wiggle grow followMouseSlow
-               frequency:200
-	       frequency variation:40
-	       duration:10
-	       icon:https://i.imgur.com/qCUNSCi.png
-       *cosmicCat
-               name:Cosmic Catsack
-               on click:yield (random(10,100)) condounits
-	       on click:toast The Cosmic Catsack opened and contained <//><b>[$amount] condo units</b>!
-	       req:silvercatsack
-               movement:anywhere shrink spinCW
-               frequency:1000
-	       frequency variation:100
-	       duration:10
-	       icon:https://i.imgur.com/qCUNSCi.png
-       *Potato
-               name:Potato
-               on click:yield (random(10,100)) plazaunits
-	       on click:toast The potato splatted to the ground and had <//><b>[$amount] plaza units</b> in it!
-	       req:silvercatsack
-               movement:anywhere bounce moveRandom
-               frequency:30
-	       frequency variation:20
-	       duration:10
-	       icon:http://cdn.towerunite.com/images/Potato.png
+
+
+
+Achievements
+*crocodillo
+  name:You almost win my friend
+  desc:Win almost
+  req:10 Malik clicks
+*monkeyBoy
+name: 100 clicks
+  desc:WOW
+  req:100 Malik clicks
+*arjayMaster
+name: 100 clicks
+  desc:thousnad clicks
+  req:1000 Malik clicks
+Layout
+*main
+  contains:res
+  *res
+    contains:Resources
+    class:fullWidth
+  *buttons
+    contains:Buttons
+class:bigButton
+
+*store
+  contains:buildings, upgrades
+  *buildings
+    contains:BulkDisplay, Buildings
+    header:Buildings
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
+  
+
 
