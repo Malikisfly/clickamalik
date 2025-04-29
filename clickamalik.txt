@@ -214,6 +214,7 @@ Buttons
   on click:yield 1 munyun
   show clicks   
 icon: https://file.garden/aBE4-PXQ8xy11qyy/7630510.png
+class:bigButton hasFlares
   
 Buildings
 *Cardboardbox
@@ -394,5 +395,12 @@ Layout
     header:Upgrades
     costs:hide
     names:hide
+
+CSS
+#box-buttons
+{
+	top:30%
+}
+	
   
 
