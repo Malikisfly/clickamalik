@@ -51,7 +51,7 @@ Upgrades
   name:master caseoh
   desc:get munyun
   passive:multiply yield of munyun by 7
-  cost:4k munyun
+  cost:4000 munyun
 
 
 Achievements
@@ -64,9 +64,9 @@ name: 100 clicks
   desc:WOW
   req:100 Malik clicks
 *arjayMaster
-name: 1k clicks
+name: 100 clicks
   desc:thousnad clicks
-  req:1k Malik clicks
+  req:1000 Malik clicks
 Layout
 *main
   contains:res, buttons
