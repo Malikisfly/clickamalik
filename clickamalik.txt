@@ -55,7 +55,7 @@ background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2
 {
 	left:0px;
 	top:0px;
-	bottom:300px;
+	bottom:0px;
 	overflow:hidden;
 	width:60%;
 	position:absolute;
@@ -73,7 +73,7 @@ background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2
 {
 	top:0px;
 	right:0px;
-	bottom:0px;
+	bottom:700px;
 	left:0px;
 	position:absolute;
 }
