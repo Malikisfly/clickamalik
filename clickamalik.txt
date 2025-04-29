@@ -228,29 +228,65 @@ Upgrades
 *tungTungTungSahar
   name:tung tung tung sahar
   desc:munyun
-  passive:multiply yield of munyun by 2
+  passive:multiply yield of munyun by 1.4
   cost:300 munyun
 *spider
   name:master splinter
   desc:get munyun
-  passive:multiply yield of munyun by 5
+  passive:multiply yield of munyun by 1.6
   cost:500 munyun
 *monkey
   name:master caseoh
   desc:get munyun
-  passive:multiply yield of munyun by 7
+  passive:multiply yield of munyun by 1.8
   cost:4000 munyun
 
 *buddy1
   name:bud
   desc:munyun
-  passive:multiply yield of munyun by 3
+  passive:multiply yield of munyun by 2
   cost:800 munyun
 *buddy2
   name:buddy
   desc:get munyun
-  passive:multiply yield of munyun by 5
+  passive:multiply yield of munyun by 2.3
   cost:3000 munyun
+
+*buddy3
+  name:bud2
+  desc:munyun
+  passive:multiply yield of munyun by 2.6
+  cost:8000 munyun
+
+*buddy4
+  name:bud3
+  desc:get munyun
+  passive:multiply yield of munyun by 2.7
+  cost:30000 munyun
+
+*buddy5
+  name:bud4
+  desc:get munyun
+  passive:multiply yield of munyun by 2.8
+  cost:50000 munyun
+
+*buddy6
+  name:bud5
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:70000 munyun
+
+*buddy7
+  name:bud6
+  desc:get munyun
+  passive:multiply yield of munyun by 2.9
+  cost:90000 munyun
+*buddy8
+  name:bud7
+  desc:get munyun
+  passive:multiply yield of munyun by 3
+  cost:90000 munyun
+
 
 
 Achievements
