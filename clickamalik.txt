@@ -6,14 +6,14 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.9.0
+version: alpha.7.8.0
 
 Settings
 background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcartoon-grass-background&psig=AOvVaw1nK17CkWPqDS2omzzQIrN5&ust=1745973664079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiP-PGA_IwDFQAAAAAdAAAAABAK.jpg
 
 #game
 {
-	background:#fff;
+	
 	font-size:12px;
 	color:rgba(0,0,0,0.9);
 	text-shadow:none;
@@ -55,7 +55,7 @@ background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2
 {
 	left:0px;
 	top:0px;
-	bottom:0px;
+	bottom:300px;
 	overflow:hidden;
 	width:60%;
 	position:absolute;
