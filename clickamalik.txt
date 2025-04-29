@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 8
+version: 9
 Settings
 background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcartoon-grass-background&psig=AOvVaw1nK17CkWPqDS2omzzQIrN5&ust=1745973664079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiP-PGA_IwDFQAAAAAdAAAAABAK.jpg
 
@@ -213,21 +213,45 @@ Buttons
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
   show clicks   
-top:0px;
-	right:0px;
-	bottom:5000px;
-	left:0px;
-	position:absolute;
-  
+
+*Wade
+  name: Wade
+  desc: Click Wade. Grants 14 munyun per click.
+  on click:yield 14 munyun
+  show clicks   
+
 Buildings
 *Cardboardbox
   name: Cardboard Box
   desc: You live in a box?!?!
-  icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
   tag: houses
   cost:20 munyun
   req:20 munyun
   on tick:yield 3 munyun
+*Eric
+  name: Lion Zoo
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
+  on tick:yield 300 munyun
+
+*Monkey
+  name: Monkey Zoo 
+  desc: Ruff RUff
+  tag: houses
+  cost:200 munyun
+  req:200 munyun
+  on tick:yield 600 munyun
+
+*Hippo
+  name: Hippo Zoo 
+  desc: honk
+  tag: houses
+  cost:600 munyun
+  req:600 munyun
+  on tick:yield 800 munyun
+
 
 Upgrades
 *tungTungTungSahar
@@ -256,6 +280,20 @@ Upgrades
   desc:get munyun
   passive:multiply yield of munyun by 5
   cost:3000 munyun
+
+*buddy3
+  name:bud2
+  desc:munyun
+  passive:multiply yield of munyun by 6
+  cost:8000 munyun
+
+*buddy4
+  name:bud3
+  desc:get munyun
+  passive:multiply yield of munyun by 7
+  cost:30000 munyun
+
+
 
 
 Achievements
