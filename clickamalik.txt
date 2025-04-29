@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 3
+version: 4
 Settings
 background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 Resources
@@ -16,7 +16,6 @@ Resources
 icon: https://file.garden/aBE4-PXQ8xy11qyy/7630510.png
 	 class:noBackground
 		show earned
-no text
 Buttons
 *Malik
   name: Malik
