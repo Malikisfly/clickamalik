@@ -42,10 +42,49 @@ Upgrades
   desc:munyun
   passive:multiply yield of munyun by 2
   cost:300 munyun
+*spider
+  name:master splinter
+  desc:get munyun
+  passive:multiply yield of munyun by 5
+  cost:500 munyun
+*monkey
+  name:master caseoh
+  desc:get munyun
+  passive:multiply yield of munyun by 7
+  cost:4k munyun
+
 
 Achievements
 *crocodillo
   name:You almost win my friend
   desc:Win almost
   req:10 Malik clicks
+*monkey boy
+name: 100 clicks
+  desc:WOW
+  req:100 Malik clicks
+*arjay master
+name: 1k clicks
+  desc:thousnad clicks
+  req:1k Malik clicks
+Layout
+*main
+  contains:res, buttons
+  *res
+    contains:Resources
+    class:fullWidth
+  *buttons
+    contains:Buttons
+*store
+  contains:buildings, upgrades
+  *buildings
+    contains:BulkDisplay, Buildings
+    header:Buildings
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
+  
 
