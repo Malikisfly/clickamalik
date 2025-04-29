@@ -6,11 +6,9 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 12
+version: 4.12
 Settings
-background: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcartoon-grass-background&psig=AOvVaw1nK17CkWPqDS2omzzQIrN5&ust=1745973664079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiP-PGA_IwDFQAAAAAdAAAAABAK.jpg
-
-
+background: 
 Resources
 *munyun|munyuns
 		name:munyun|munyuns
@@ -22,7 +20,6 @@ Buttons
   name: Malik
   desc: Click Malik. Grants 1 munyun per click.
   on click:yield 1 munyun
-icon: https://ibb.co/Q3js4Nb1.jpg
 icon:icons[3,1]
   show clicks   
 class:bigButton
