@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: alpha.v.7.0
+version: alpha.v.7.2
 
 Settings
 stylesheet: stuff/bigBlue.css
@@ -32,22 +32,22 @@ Buildings
   desc: You live in a box?!?!
   icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F46449516-a-cardboard-box-on-a-transparent-background&psig=AOvVaw3KHkDjsQob38N4MmownATF&ust=1745899163235000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCID_56zr-YwDFQAAAAAdAAAAABAQ
   tag: houses
-  cost: 20 munyun
-  req: 20 munyun
+  cost:20 munyun
+  req:20 munyun
   on tick:yield 3 munyun
 
 Upgrades
 *tungTungTungSahar
-  name: tung tung tung sahar
+  name:tung tung tung sahar
   desc:munyun
   passive:multiply yield of munyun by 2
-  cost: 300 munyun
+  cost:300 munyun
 
 Achievements
 *crocodillo
-  name: You almost win my friend
-  desc: Win almost
-  req: 10 Malik clicks
+  name:You almost win my friend
+  desc:Win almost
+  req:10 Malik clicks
 
 Layout
   *resources
