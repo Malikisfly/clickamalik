@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 1
+version: 3
 Settings
 background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 Resources
@@ -178,7 +178,11 @@ Upgrades
   desc:get munyun
   passive:multiply yield of munyun by 3
   cost:90000 munyun
-
+*buddy9
+  name:bud8
+  desc:get munyun
+  passive:multiply yield of munyun by 10000000
+  cost:90000 munyun
 
 
 Achievements
