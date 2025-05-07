@@ -121,8 +121,8 @@ icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(13).png
   name: Jesse Riven
   desc: ooooooo
   tag: houses
-  cost:1800000000000000 munyun
-  req: 1800000000000000 munyun
+  cost:180000000 munyun
+  req: 1800000000 munyun
   on tick:yield 29 munyun
 icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(13).png
 
