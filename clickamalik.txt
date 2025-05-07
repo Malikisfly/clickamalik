@@ -6,7 +6,7 @@ by: ArJay Malik
 desc: Click a handsome young man to become successful!
 
 created: 27/4/2025
-version: 4
+version: 6
 Settings
 background: https://file.garden/aBE4-PXQ8xy11qyy/330085.jpg
 Resources
@@ -101,8 +101,8 @@ icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(11).png
   name: Space Zoo 
   desc: ooooooo
   tag: houses
-  cost:13000 munyun
-  req:13000 munyun
+  cost:130000 munyun
+  req:1300000 munyun
   on tick:yield 27 munyun
 icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(12).png
 
@@ -111,10 +111,21 @@ icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(12).png
   name: Deity Zoo 
   desc: ooooooo
   tag: houses
-  cost:17000 munyun
-  req:17000 munyun
+  cost:1700000000000000 munyun
+  req:1700000000000000 munyun
   on tick:yield 29 munyun
 icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(13).png
+
+
+*Jesse
+  name: Jesse Riven
+  desc: ooooooo
+  tag: houses
+  cost:1800000000000000 munyun
+  req: 1800000000000000 munyun
+  on tick:yield 29 munyun
+icon:https://file.garden/aBE4-PXQ8xy11qyy/Untitled%20design%20(13).png
+
 
 Upgrades
 *tungTungTungSahar
@@ -183,6 +194,33 @@ Upgrades
   desc:get munyun
   passive:multiply yield of munyun by 10000000
   cost:90000 munyun
+
+*jesseee
+  name:nik nik
+  desc:get munyun
+  passive:multiply yield of munyun by 10000011111000000
+  cost:9000000 munyun
+
+
+*mo
+  name: amaiah dauer
+  desc:get munyun
+  passive:multiply yield of munyun by 10000022222000000
+  cost:100000000 munyun
+
+*cj
+  name: callie 
+  desc:get munyun
+  passive:multiply yield of munyun by 100002000000000
+  cost:90000000 munyun
+
+
+*ups
+  name: MALIK 
+  desc:get munyun
+  passive:multiply yield of munyun by 100002000000000000000000
+  cost:90000000886546 munyun
+
 
 *buddy10
   name:bud9
